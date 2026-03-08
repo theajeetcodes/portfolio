@@ -1,0 +1,28 @@
+* {
+    background-color: black;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: aqua;
+    margin-left: 200px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin-right: 200px;
+    
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
