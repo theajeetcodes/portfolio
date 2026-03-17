@@ -563,12 +563,63 @@ body {
     width: 300px;
     overflow: hidden;
     border-radius: 10px;
-    cursor: pointer
+    cursor: pointer;
+    box-shadow: 0 0 10px #dafffa, 0 0 5px #00f5d4, 0 0 10px #00f5d4;
 }
 
 .project-content img {
     width: 100%;
     border-radius: 10px;
     transition: 0.4s;
+}
 
+.project-img-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.project-img-container img {
+    width: 100%;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #a3e2da;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    padding: 20px;
+    transition: 0.5s ease;
+}
+
+.project-img-container:hover img {
+    filter: blur(3px);
+    transform: scale(1.05);
+}
+
+.project-img-container:hover .project-overlay {
+    opacity: 1;
+}
+
+.project-overlay h3,
+.project-overlay p {
+    transform: translateY(20px);
+    transition: transform 0.5s ease;
+}
+
+.project-img-container:hover .project-overlay h3,
+.project-img-container:hover .project-overlay p {
+    transform: translateY(0);
 }
