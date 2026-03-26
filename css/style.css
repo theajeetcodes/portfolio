@@ -530,9 +530,13 @@ body {
 }
 
 .about-image{
+    width: 100%;
+    display: flex;
     justify-content:center;
+    align-items: center;
     margin-top:30px;
-    /* margin-left: 50px; */
+
+    
 }
 
 .about-image img{
@@ -667,16 +671,40 @@ body {
 .experience-count {
     color: rgb(145, 151, 156);
     display: flex;
-    gap: 20px;
+    align-items: center;
+    gap: 10px;
     margin-bottom: 8px;
     line-height: 1.4;
     font-size: 14px;
+    text-align: center;
 }
-.para {
+/* .para {
     color: #9ee5dc;
     font-family: "Roboto", "Segoe UI", sans-serif;
     line-height: 1.6;
     font-size: 14px;
+} */
+
+@media (max-width:768px) {
+    .resume-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .experience-box {
+        align-items: center;
+        text-align: center;
+    }
+
+    .experience-head {
+        text-align: center;
+    }
+
+    .experience-count {
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+    }
 }
 
 .contact {
@@ -801,10 +829,15 @@ body {
 @media (max-width:768px) {
     .contact-box {
         flex-direction: column;
+        gap: 30px;
     }
 
     .all-detail,
     .contact-form {
         width: 100%;
+    }
+
+    .contact-form {
+        margin-top: 20px;
     }
 }
