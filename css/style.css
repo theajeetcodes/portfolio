@@ -124,7 +124,7 @@ body {
 
 .home-content {
     margin-left: 40px;
-    height: 50vh;
+    /* height: 50vh; */
     margin-top: 100px;
     text-align: left;
     animation: slideRight 1.2s ease forwards;
@@ -332,6 +332,7 @@ body {
         flex-direction: row;
         justify-content: space-around;
         padding: 0 5%;
+        gap: 20px;
     }
 
     .profile-image img {
@@ -340,6 +341,7 @@ body {
 
     .home-content {
         margin-left: 20px;
+        margin-top: 10px;
         text-align: left;
         width: 50%;
     }
@@ -351,11 +353,16 @@ body {
     .btn {
         width: 80%;
         justify-content: space-between;
+        margin-top: 20px;
     }
 
     .about {
         padding: 60px 5%;
         gap: 40px;
+    }
+
+    .profile-image {
+        margin-top: 20px;
     }
 
     .about-image img {
