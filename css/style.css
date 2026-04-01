@@ -7,13 +7,27 @@
 
 html {
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 body {
     background: black;
+    overflow: hidden;
+    height: 100%;
 }
 
+.section {
+    width: 100vw;
+    height: 100vh;
+    flex-shrink: 0;
+}
 
+.main-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    transition: transform 0.8s ease-in-out;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -167,20 +181,20 @@ body {
 }
 
 .icon a:nth-child(1) {
-    animation: slideLeft 0.6s ease forwards;
+    animation: slideLeft 2s ease forwards;
 }
 
 .icon a:nth-child(2) {
-    animation: slideLeft 1s ease forwards;
+    animation: slideLeft 2.5s ease forwards;
 }
 
 .icon a:nth-child(3) {
-    animation: slideLeft 1.2s ease forwards;
+    animation: slideLeft 3s ease forwards;
 }
 
 .profile-image {
     margin-top: 5px;
-    animation: slideTop 1.2s ease forwards;
+    animation: slideTop 3s ease forwards;
 }
 
 .profile-image img {
@@ -206,7 +220,7 @@ body {
     /* height: 50vh; */
     margin-top: 100px;
     text-align: left;
-    animation: slideRight 1.2s ease forwards;
+    animation: slideRight 2s ease forwards;
 }
 
 .intro {
@@ -756,7 +770,7 @@ body {
    margin-bottom: 5px;
    letter-spacing: 0.5px;
    line-height: 1.3;
-   animation: slideLeft 1.3s ease forwards;
+   animation: slideLeft 2s ease forwards;
 }
 
 .experience-count {
