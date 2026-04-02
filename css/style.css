@@ -12,20 +12,40 @@ html {
 
 body {
     background: black;
-    overflow: hidden;
-    height: 100%;
+    overflow-x: hidden;
+    /* overflow-y: auto; */
+    height: auto;
+}
+
+@media (max-width:768px) {
+    body {
+        overflow-y: auto;
+    }
+
+    .main-container {
+        width: 100%;
+        height: auto;
+        transform: none !important;
+    }
+
+    .section {
+        width: 100%;
+        height: auto;
+        /* min-height: auto; */
+        padding: 60px 20px;
+    }
 }
 
 .section {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: auto;
     flex-shrink: 0;
 }
 
 .main-container {
-    display: flex;
+    /* display: flex; */
     width: 100vw;
-    height: 100vh;
+    height: auto;
     transition: transform 0.8s ease-in-out;
 }
 .navbar {
@@ -42,7 +62,7 @@ body {
 
 .nav-links {
     display: flex;
-    gap: 60px;
+    gap: 80px;
     list-style: none;
     margin-right: 300px;
     
@@ -733,6 +753,12 @@ body {
     transform: translateY(0);
 }
 
+@media (max-width:768px) {
+    .projects {
+        padding-bottom: 40px;
+    }
+}
+
 .resume {
     padding: 80px 8%;
     display: flex;
@@ -791,9 +817,16 @@ body {
 } */
 
 @media (max-width:768px) {
+
+    .resume {
+        padding: 60px 20px;
+        height: auto;
+    }
     .resume-box {
         width: 100%;
+        flex-direction: column;
         text-align: center;
+        align-items: center;
     }
 
     .experience-box {
@@ -950,7 +983,7 @@ body {
 }
 
 .footer {
-    margin-top: 80px;
+    margin-top: 0px;
     padding: 40px 8%;
     background: rgba(10, 10, 10, 0.6);
     backdrop-filter: blur(15px);
@@ -1032,6 +1065,13 @@ body {
 }
 
 @media (max-width:768px) {
+
+    .footer {
+        margin-top: 0;
+    }
+    body {
+        display: block;
+    }
     .footer-container {
         flex-direction: column;
         text-align: center;
