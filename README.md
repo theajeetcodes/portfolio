@@ -1,115 +1,170 @@
-# 🌐 Ajeet Yadav – Portfolio Website
+<h1 align="center">🌐 Ajeet Yadav – Developer Portfolio</h1>
 
-![HTML](https://img.shields.io/badge/HTML-5-orange)
-![CSS](https://img.shields.io/badge/CSS-3-blue)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
-![Status](https://img.shields.io/badge/Status-In%20Progress-green)
+<p align="center">
+  🚀 Modern, responsive & performance-focused portfolio website  
+  Built to showcase frontend skills, real projects, and growth journey.
+</p>
 
-## 📌 Overview
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML-5-orange?logo=html5">
+  <img src="https://img.shields.io/badge/CSS-3-blue?logo=css3">
+  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript">
+  <img src="https://img.shields.io/badge/Status-Active%20Development-green">
+  <img src="https://img.shields.io/badge/Focus-Frontend%20Development-purple">
+</p>
 
-This is my personal portfolio website built to showcase my frontend development skills, projects, and learning journey.  
-The goal of this project is to create a clean, modern, and responsive portfolio that represents my technical abilities and growth as a developer.
+---
 
-This project is being built with continuous improvements and meaningful commits to demonstrate real development workflow and version control practices.
+## 🔗 Live Preview
+
+👉 **Live Website:**  
+https://theajeetcodes.github.io/portfolio/
+
+---
+
+## 📸 Preview
+
+<p align="center">
+  <img src="images/preview1.png" width="400" alt="Portfolio Preview">
+  <img src="images/preview2.png" width="400" alt="Portfolio Preview">
+</p>
+
+---
+
+## 📌 About The Project
+
+This is a **professional developer portfolio website** designed and built to:
+
+- Showcase real-world frontend projects
+- Highlight technical skills and UI/UX abilities
+- Represent personal brand as a developer
+- Demonstrate clean coding & structured development approach
+
+The project is being developed with **incremental commits** to reflect real industry workflow.
 
 ---
 
 ## 🚀 Tech Stack
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- Git & GitHub (Version Control)
+- **HTML5** → Structure  
+- **CSS3** → Styling & Layout  
+- **JavaScript (ES6)** → Interactivity  
+- **Git & GitHub** → Version Control  
 
 ---
 
-## 🎯 Project Goals
+## ✨ Features
 
-- Build a professional personal portfolio
-- Practice clean code structure
-- Improve UI/UX design skills
-- Maintain proper Git workflow with meaningful commits
-- Prepare for internships and freelance opportunities
+- ✅ Fully Responsive Design (Mobile + Desktop)
+- ✅ Modern UI/UX Layout
+- ✅ Smooth Scrolling Navigation
+- ✅ Clean Section-Based Structure
+- ✅ Developer-Focused Design
+- 🚧 JavaScript Interactions (In Progress)
+- 🚧 Animations & Effects (Planned)
 
 ---
 
-## 📂 Project Structure
-
+## 📂 Folder Structure
 ```
 portfolio/
 │
 ├── index.html
+│
 ├── css/
 │   └── style.css
+│
 ├── js/
-│   └── script.js (to be added)
+│   └── script.js
+│
+├── images/
+│   ├── preview1.png
+│   ├── preview2.png
+│   ├── dp1.png
+│   ├── html.png
+│   ├── css.png
+│   ├── js.png
+│   ├── github.png
+│   ├── linkedin.png
+│   ├── email2.png
+│   ├── email1.png
+│   ├── call.png
+│   ├── location.png
+│   ├── clock.png
+│   ├── counter.png
+│   ├── bookmark.png
+│   ├── apnastore.png
+│   ├── hotel.png
+│   ├── vertexwebco.png
+│   ├── logingame.png
+│   ├── papergame.png
+│   ├── quiz.png
+│   ├── time.png
+│   └── whatsapp.png
+│
+├── files/
+│   └── Ajeet_Yadav_CV.pdf
+│
 └── README.md
 ```
 
 ---
 
-## ✨ Features (Planned & In Progress)
+## 🛠️ Getting Started
 
-- Responsive Navigation Bar
-- Hero Section
-- About Me Section
-- Skills Section
-- Projects Showcase
-- Contact Form
-- Smooth Animations
-- Mobile Responsive Design
+### 1️⃣ Clone Repository
 
----
-
-## 🛠️ How to Run Locally
-
-1. Clone the repository:
-
-```
+```bash
 git clone https://github.com/theajeetcodes/portfolio.git
+cd portfolio
 ```
 
-2. Open the project folder.
-3. Open `index.html` in your browser.
+### 2️⃣ Run Locally
+
+Then Open **index.html** in your browser
 
 ---
 
-## 📈 Development Approach
+## 📈 Development Workflow
 
-This project follows:
+This project follows real-world development practices:
 
-- Incremental development
-- Clean folder structure
-- Meaningful commit messages
-- Continuous UI improvements
-
-Each update is pushed step-by-step to demonstrate real-world development workflow.
+* 🔹 Incremental commits (no fake “complete project” commits)
+* 🔹 Clean and scalable structure
+* 🔹 Feature-by-feature updates
+* 🔹 Continuous UI improvements
 
 ---
 
-## 📌 Current Status
+## 📌 Current Progress
 
-🚧 Project is under development (Day 1 started).  
-More sections and styling will be added progressively.
+🚧 Portfolio is actively being developed
+✔️ Initial structure completed
+✔️ Base UI designed
+⏳ JavaScript features in progress
+
+---
+
+## 📬 Future Enhancements
+* ☀️ Light Mode
+* 🎬 Advanced Animations (GSAP / CSS)
+* 🔍 Project Filtering System
+* ⚡ Performance Optimization
+* 🌍 Custom Domain Deployment
 
 ---
 
 ## 👨‍💻 Author
 
-**Ajeet Yadav**  
-Aspiring Frontend Developer  
-Focused on building real-world projects and improving daily.
+**Ajeet Yadav**
+Frontend Developer
+
+- 📧 Email: ajeetyadavajju88@gmail.com  
+- 💻 GitHub: https://github.com/theajeetcodes  
+- 💼 LinkedIn: https://www.linkedin.com/in/ajeet-yadav-9339313b3
 
 ---
 
-## 📬 Future Improvements
+## ⭐ Show Your Support
 
-- Dark Mode
-- Advanced Animations
-- Project Filtering System
-- Performance Optimization
-- Deployment with custom domain
-
----
-
-### ⭐ If you like this project, feel free to star the repository.
+If you like this project, **give it a ⭐ on GitHub!**
